@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/guice-4.0.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/httpclient-4.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/jettison.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/xom-1.2.6.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/fastjson-1.2.5.jar"/>
+	<classpathentry kind="lib" path="/Users/jiangshaowei/eclipse/tool/lib/javax.mail-1.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

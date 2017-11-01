@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <suite name="TestJice" parallel="test" Configfailurepolicy="continue" 
+	thread-count="3" skipfailedinvocationcount="true" preserve-order="true"> -->
+<suite name="JiceTest">
+	<test name="Mine" preserve-order="true">
+	
+<!-- 	<parameters>
+			<parameter name="username" value="577641850@qq.com" />
+			<parameter name="password" value="admaster123" />
+			<parameter name="appname" value="及策官网线上对应"/>
+			<parameter name="id" value="07f6a1d5839d40a2ab0c453cf329517d"/>
+			<parameter name="name" value="及策官网线上对应"/>
+			<parameter name="url" value="http://jice.stonephp.com"/>
+			<parameter name="email" value="5776438923@163.com"/>
+			<parameter name="event" value="选择产品"></parameter>
+			<parameter name="gname" value="测试四"></parameter>
+			<parameter name="event1" value="Chrome"></parameter>
+		</parameters>  -->
+		
+<!-- 		<classes>
+			<class name="com.test.monitor.login"></class>
+			<methods preserve_order="true">
+			     <include name="loginTest"></include>
+			     <include name="getUser"></include>
+			</methods>
+		</classes> --> 
+		  <!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter" 
+			/> <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> </listeners> -->
+	</test>
+</suite> 
