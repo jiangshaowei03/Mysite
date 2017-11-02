@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JiceDemo]">
+  <parameter name="event1" value="Chrome"/>
+  <parameter name="password" value="admaster123"/>
+  <parameter name="appname" value="及策官网线上对应"/>
+  <parameter name="name" value="及策官网线上对应"/>
+  <parameter name="id" value="07f6a1d5839d40a2ab0c453cf329517d"/>
+  <parameter name="event" value="选择产品"/>
+  <parameter name="gname" value="测试四"/>
+  <parameter name="url" value="http://jice.stonephp.com"/>
+  <parameter name="email" value="5776438923@163.com"/>
+  <parameter name="username" value="577641850@qq.com"/>
+  <test name="Mine4(failed)">
+    <parameter name="event1" value="Chrome"/>
+    <parameter name="password" value="admaster123"/>
+    <parameter name="appname" value="及策官网线上对应"/>
+    <parameter name="name" value="及策官网线上对应"/>
+    <parameter name="id" value="07f6a1d5839d40a2ab0c453cf329517d"/>
+    <parameter name="event" value="选择产品"/>
+    <parameter name="gname" value="测试四"/>
+    <parameter name="url" value="http://jice.stonephp.com"/>
+    <parameter name="email" value="5776438923@163.com"/>
+    <parameter name="username" value="577641850@qq.com"/>
+    <classes>
+      <class name="com.test.Uanalysis">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Legend" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.Uanalysis -->
+    </classes>
+  </test> <!-- Mine4(failed) -->
+</suite> <!-- Failed suite [JiceDemo] -->

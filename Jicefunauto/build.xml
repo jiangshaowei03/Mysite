@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Selenium" basedir=".">
+
+	<property name="lib.dir" value="lib" />
+
+	<path id=".classpath">
+
+		<!-- adding the saxon jar to your classpath -->
+
+		<fileset dir="${lib.dir}" includes="*.jar" />
+
+	</path>
+
+	<target name="Selenium">
+
+		<xslt in="/Users/jiangshaowei/Documents/workspace/TestNg/test-output/testng-results.xml" 
+			style="/Users/jiangshaowei/Documents/workspace/TestNg/test-output/testng-results.xsl" 
+			out="/Users/jiangshaowei/Documents/workspace/TestNg/test-output/index1.html ">
+
+			<!-- you need to specify the directory here again -->
+
+			<param name="testNgXslt.outputDir" expression="/Users/jiangshaowei/Documents/workspace/TestNg/test-output" />
+
+			<classpath refid="test.classpath" />
+
+		</xslt>
+
+	</target>
+
+</project>

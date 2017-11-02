@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <suite name="TestJice" parallel="test" Configfailurepolicy="continue" 
+	thread-count="3" skipfailedinvocationcount="true" preserve-order="true"> -->
+<suite name="JiceDemo">
+	<test name="Mine4" preserve-order="true">
+	
+		 <parameters>
+			<parameter name="username" value="577641850@qq.com" />
+			<parameter name="password" value="admaster123" />
+			<parameter name="appname" value="及策官网线上对应"/>
+			<parameter name="id" value="07f6a1d5839d40a2ab0c453cf329517d"/>
+			<parameter name="name" value="及策官网线上对应"/>
+			<parameter name="url" value="http://jice.stonephp.com"/>
+			<parameter name="email" value="5776438923@163.com"/>
+			<parameter name="event" value="选择产品"></parameter>
+			<parameter name="gname" value="测试四"></parameter>
+			<parameter name="event1" value="Chrome"></parameter>
+		</parameters> 
+		
+		<classes>
+			<!-- <class name="com.test.TestJice"/>
+			<methods preserve-order="true">
+				<include name="LoginTest"></include>
+			    <include name="RegistTest"></include>
+				<include name="SelectProduce"></include>
+				<include name="LoginTest"></include>
+				<include name="Type"></include>
+			</methods> -->
+			<!-- <class name="com.test.Function"></class>
+			<methods preserve_order="true">
+			     <include name="LoginTest"></include>
+				 <include name="Type"></include>
+			     <include name="Manage"></include>
+			</methods> -->
+            <!-- <class name="com.test.Event"></class>
+			<methods preserve_order="true">
+			     <include name="LoginTest"></include>
+			     <include name="Type"></include>
+			     <include name="Eventanalysis"></include>
+			</methods> -->
+			<!-- <class name="com.test.TestTool"></class>
+			<methods preserve_order="true">
+			     <include name="LoginTest"></include>
+			     <include name="Type"></include>
+			     <include name="Testol"></include>
+			</methods> -->
+<!-- 			<class name="com.test.Uanalysis"></class>
+			<methods preserve_order="true">
+			     <include name="LoginTest"></include>
+			     <include name="Type"></include>
+			     <include name="UserType"></include>
+			     <include name="Legend"></include>
+			</methods> -->
+			<methods>
+			    <class name="com.test.FirstPage"></class>
+			    <include name="Page"></include>
+			</methods>
+		</classes> 
+		  <!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter" 
+			/> <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> </listeners> -->
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

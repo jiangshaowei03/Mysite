@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JiceDemo" duration-ms="39629" started-at="2017-09-28T09:10:08Z" finished-at="2017-09-28T09:10:47Z">
+    <groups>
+    </groups>
+    <test name="Mine4" duration-ms="39629" started-at="2017-09-28T09:10:08Z" finished-at="2017-09-28T09:10:47Z">
+      <class name="com.test.Uanalysis">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Uanalysis@d2cc05a]" name="setUp" is-config="true" duration-ms="3512" started-at="2017-09-28T17:10:08Z" finished-at="2017-09-28T17:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.test.Uanalysis@d2cc05a]" name="LoginTest" duration-ms="1907" started-at="2017-09-28T17:10:11Z" finished-at="2017-09-28T17:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[577641850@qq.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admaster123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="Type(java.lang.String)[pri:0, instance:com.test.Uanalysis@d2cc05a]" name="Type" duration-ms="7566" started-at="2017-09-28T17:10:13Z" finished-at="2017-09-28T17:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[及策官网线上对应]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Type -->
+        <test-method status="PASS" signature="Legend(java.lang.String)[pri:0, instance:com.test.Uanalysis@d2cc05a]" name="Legend" duration-ms="23488" started-at="2017-09-28T17:10:21Z" finished-at="2017-09-28T17:10:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Legend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.Uanalysis@d2cc05a]" name="tearDown" is-config="true" duration-ms="3135" started-at="2017-09-28T17:10:44Z" finished-at="2017-09-28T17:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.Uanalysis -->
+    </test> <!-- Mine4 -->
+  </suite> <!-- JiceDemo -->
+</testng-results>

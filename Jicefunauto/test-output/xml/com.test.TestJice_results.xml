@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Mine3"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.973">
+  <properties />
+  
+  
+            <testcase name="LoginTest" time="0.973" classname="com.test.TestJice" />
+      
+</testsuite>
